@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 3</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Masukkin Nama" id="nama" />
+    <br />
+    <button type="button" onclick="ambilNama()">Simpan</button>
+    <!-- <script src="./assets/script/index.js"></script> -->
+    <script>
+      var a = 12;
+      var b = 4;
+      function Perkalian2(b) {
+        var a = b * 2;
+        return a;
+      }
+      document.write("<br>");
+      document.write("Dua kali dari ", b, " adalah ", Perkalian2(b));
+      document.write("<br>");
+      document.write("Nilai dari a adalah ", a);
+      document.write("<br>");
+      
+      var a = 12;
+      var b = 4;
+      function Perkalian2(b) {
+        a = b * 2;
+        return a;
+      }
+      document.write("<br>");
+      document.write("Dua kali dari ", b, " adalah ", Perkalian2(b));
+      document.write("<br>");
+      document.write("Nilai dari a adalah ", a);
+
+      var table = ['Buaya', 'Harimau', 'Gajah', 'Singa', 'Jerapah', 'Zebra'];
+      document.write("<br>");
+      document.write("Elemen ke4 dari table adalah " + table[3]);
+
+
+      function ambilNama() {
+        let nama = document.getElementById("nama").value;
+        alert("Halo" + nama);
+      }
+    </script>
+  </body>
+</html>
